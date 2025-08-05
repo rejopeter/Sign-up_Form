@@ -1,7 +1,10 @@
+/* Sign-Up Form */
+
 @font-face {
     font-family: 'Norse';
     src: url('./Norse-Bold.otf') format('opentype');
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -10,15 +13,18 @@ body {
   align-items: center;
   background-color: rgb(249, 250, 251);
 }
+
 .sidebar {
   display: flex;
   flex-direction: column;
   align-items: stretch;
 }
+
 .sidebar_image {
   display: flex;
   justify-content: center;
 }
+
 #green {
   display: flex;
   align-items: center;
@@ -26,13 +32,16 @@ body {
   height: 100vh;
   width: 60vh;
 }
+
 figcaption, figcaption > a {
   color: white;
 }
+
 figcaption {
   position: absolute;
   bottom: 10px;
 }
+
 #logo {
   background-color: rgba(5, 5, 5, 0.5);
   display: flex;
@@ -44,59 +53,72 @@ figcaption {
   position: absolute;
   margin: 17vh 0 0 0;
 }
+
 #odin {
   height: -webkit-fill-available;
   padding: 20px;
 }
+
 h1 {
   font-family: 'Norse';
   font-size: 100px;
   margin: 30px 0px 0px 0px;
   color: white;
-  
 }
+
 .header, .submit {
   padding: 10px 10px 10px 40px;
 }
+
 .header {
   font-size: larger;
 }
+
 .header > p {
   font-size: larger;
 }
+
 h2, a, p, label, figcaption {
   font-family: monospace;
 }
+
 #formdiv {
   padding: 10px 0 10px 40px;
   box-shadow: 1px 14px 20px 3px #888888;
   background-color: rgb(255, 255, 255);
 }
+
 form {
   display: flex;
   gap: 60px;
 }
+
 input {
   height: 25px;
   width: 250px;
   border: solid;
   border-radius: 3px;
 }
+
 input:invalid {
   border-radius: 3px;
   border: solid red;
 }
+
 input:valid {
   border: solid #E5E7EB;
   border-radius: 3px;
 }
+
 input:focus {
   border: solid #E5E7EB;
   box-shadow: 3px 10px 19px 1px #888888;
 }
+
 label {
   padding: 20px 0 20px;
 }
+
 button {
   background-color: #596D48;
   color: white;
@@ -106,11 +128,13 @@ button {
   text-align: center;
   width: max-content;
 }
+
 .submit > p > a {
   color: #596D48;
   text-decoration: none;
   font-weight: bold;
 }
+
 .submit {
   font-size: large;
   margin-top: 20px;
